@@ -1,0 +1,44 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Welcome
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content padding id="page1">
+  <h4 id="welcome-heading1" style="color:#000000;font-weight:400;text-align:center;">
+    Registered User?
+  </h4>
+  <div id="welcome-container2">
+    <form id="welcome-form5">
+      <ion-item id="welcome-input8">
+        <ion-label>
+          
+        </ion-label>
+        <ion-input type="text" placeholder="User" name="user"></ion-input>
+      </ion-item>
+      <ion-item id="welcome-input10">
+        <ion-label>
+
+        </ion-label>
+        <ion-input type="text" placeholder="Password" name="password"></ion-input>
+      </ion-item>
+      <div class="spacer" style="height:30px;" id="validation3-spacer13"></div>
+      <button id="welcome-button2" ion-button color="positive" block [navPush]="mainMenu">
+        Login
+      </button>
+    </form>
+    <h6 style="text-align:right;"><a href="#">Forgot ?</a></h6>
+  </div>
+  <div class="spacer" style="height:70px;" id="welcome-spacer1"></div>
+  <div id="welcome-container3">
+    <h4 id="welcome-heading2" style="color:#000000;font-weight:400;text-align:center;">
+      Are you a New User ?
+    </h4>
+    <button id="welcome-button3" ion-button color="positive" block [navPush]="signUp">
+      Sing-Up
+    </button>
+  </div>
+  <button ion-button block (click)="getPicture()">Toma una foto</button>
+  <img [src]="image" *ngIf="image" />
+</ion-content>

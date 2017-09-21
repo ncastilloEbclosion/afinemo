@@ -1,0 +1,43 @@
+<ion-header>
+  <ion-navbar color="dark" style="text-align: center">
+    <ion-title>
+      Scan Photo Id
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content padding id="page3">
+  <h4 id="scanPhotoId-heading3" style="color:#000000;font-weight:400;text-align:center;">
+    Thank tou! Your mobile phone was validated. Now you need to scan a valid and current Photo-ID to complete the process.
+  </h4>
+  <div class="spacer" style="height:70px;" id="scanPhotoId-spacer2"></div>
+  <div id="scanPhotoId-container5">
+
+    <ion-grid>
+      <ion-row>
+        <ion-col>
+          <button style="height: 65px" id="scanPhotoId-button6" ion-button color="positive" block>
+            <nav>
+              <ion-icon ios="ios-camera" md="md-camera"></ion-icon>
+              <br><label>Front</label>
+            </nav>
+          </button>
+        </ion-col>
+        <ion-col>
+          <button style="height: 65px" id="scanPhotoId-button7" ion-button color="positive" block>
+            <div>
+              <ion-icon ios="ios-camera" md="md-camera"></ion-icon>
+              <br><label>Back</label>
+            </div>
+          </button>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+
+  </div>
+  <div class="spacer" style="height:50px;" id="scanPhotoId-spacer3"></div>
+  <div id="scanPhotoId-container6">
+    <button id="scanPhotoId-button8" ion-button color="positive" block [navPush]="validationPage">
+      Submit
+    </button>
+  </div>
+</ion-content>

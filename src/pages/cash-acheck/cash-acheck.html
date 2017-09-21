@@ -1,0 +1,47 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Cash a Check
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content padding id="page6">
+  <div id="cashACheck-markdown2" style="text-align:center;" class="show-list-numbers-and-dots">
+    <p style="color:#000000;">
+      Your Check will be submitted for guaranteeing. Please read carefully
+      <br>
+      <strong>
+        <a href="#"> Full Terms &amp; Conditions.</a>
+      </strong>
+    </p>
+    <p style="color:#000000;">
+      If your Check is accepted you&#39;ll have 3 immediate options to access you money:
+    </p>
+  </div>
+  <div id="cashACheck-markdown3" class="show-list-numbers-and-dots">
+    <ol>
+      <li>
+        Pickup from a participant Agent Location on the network.
+      </li>
+      <li>
+        Pickup from a participant ATM on the network.
+      </li>
+      <li>
+        Send Money or Make a Payment
+      </li>
+    </ol>
+  </div>
+  <div class="spacer" style="height:15px;" id="cashACheck-spacer6"></div>
+  <div id="cashACheck-markdown4" style="text-align:center;" class="show-list-numbers-and-dots">
+    <p style="color:#000000;">
+      *You can split your Money in multiple transactions
+    </p>
+  </div>
+  <form>
+    <ion-item>
+      <ion-label style="font-size: 14px">Check the box if you don&#39;t want to see <br> this screen in future transactions</ion-label>
+      <ion-checkbox color="" checked="false"></ion-checkbox>
+    </ion-item>
+    <button id="cashACheck-button23" ion-button color="positive" block [navPush]="scanCheck">I Accept T&C's</button>
+  </form>
+</ion-content>

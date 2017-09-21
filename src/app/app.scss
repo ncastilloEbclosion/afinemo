@@ -1,4 +1,4 @@
-// http://ionicframework.com/docs/theming/
+// http://ionicframework.com/docs/v2/theming/
 
 
 // App Global Sass
@@ -14,3 +14,38 @@
 // To declare rules for a specific mode, create a child rule
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
+
+
+.toolbar-background {
+  background-color: #000;
+}
+
+.toolbar-title {
+	color: #fff;
+	text-align: center;
+}
+
+.validation5 {
+	background-color: #488AFF;
+	padding: 0px;
+	color: #fff;
+	font-size: 20px;
+}
+
+.text-input { 
+	padding: 0;
+	margin: 0; 
+}
+
+.validation5 .text-input {
+	text-align: right;
+}
+
+#confirmation2-container9, #confirmation3-heading13, #confirmation4-heading16 {
+	background-color: #C00;
+}
+
+#confirmation2-heading8, #confirmation3-heading13, #confirmation4-heading16 {
+	padding: 5px;
+	color:#fff;
+}

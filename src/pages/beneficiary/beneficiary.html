@@ -1,0 +1,43 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Beneficiary
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content padding id="page21">
+  <div id="beneficiary-markdown30" style="text-align:center;" class="show-list-numbers-and-dots">
+    <p style="color:#000000;">
+      Who will receive the money ?
+    </p>
+  </div>
+  <button id="beneficiary-button45" ion-button color="positive" block>
+    Select an existing Beneficiary
+  </button>
+  <div id="beneficiary-markdown31" style="text-align:center;" class="show-list-numbers-and-dots">
+    <p style="color:#000000;">
+      Or register a new one:
+    </p>
+  </div>
+  <form id="beneficiary-form13">
+    <ion-item id="beneficiary-input21">
+      <ion-input type="text" placeholder="Full Name"></ion-input>
+    </ion-item>
+    <ion-item id="beneficiary-input22">
+      <ion-input type="text" placeholder="Address"></ion-input>
+    </ion-item>
+    <ion-item id="beneficiary-input23">
+      <ion-input type="text" placeholder="City"></ion-input>
+    </ion-item>
+    <ion-item id="beneficiary-input24">
+      <ion-input type="text" placeholder="State"></ion-input>
+    </ion-item>
+    <ion-item id="beneficiary-input25">
+      <ion-input type="tel" placeholder="Phone Number"></ion-input>
+    </ion-item>
+  </form>
+  <div class="spacer" style="height:10px;" id="beneficiary-spacer43"></div>
+  <button id="beneficiary-button46" ion-button color="positive" block [navPush]="validation7">
+    Continue
+  </button>
+</ion-content>

@@ -1,0 +1,44 @@
+<ion-header>
+  <ion-navbar color="dark">
+    <ion-title>
+      Scan Check
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content padding id="page8">
+  <div id="scanCheck-markdown7" style="text-align:center;" class="show-list-numbers-and-dots">
+    <p style="color:#000000;">
+      Please proceed to scan your check from both sides. Don&#39;t forget to endorse and sign your check on the back. No personal checks accepted or issued older than 5 days ago.
+    </p>
+  </div>
+  <ion-grid>
+      <ion-row>
+        <ion-col>
+          <button style="height: 65px" id="scanPhotoId-button6" ion-button color="positive" block>
+            <nav>
+              <ion-icon ios="ios-camera" md="md-camera"></ion-icon>
+              <br><label>Front</label>
+            </nav>
+          </button>
+        </ion-col>
+        <ion-col>
+          <button style="height: 65px" id="scanPhotoId-button7" ion-button color="positive" block>
+            <div>
+              <ion-icon ios="ios-camera" md="md-camera"></ion-icon>
+              <br><label>Back</label>
+            </div>
+          </button>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  <div class="spacer" style="height:18px;" id="scanCheck-spacer8"></div>
+  <div id="scanCheck-markdown8" style="text-align:center;" class="show-list-numbers-and-dots">
+    <p style="color:#000000;">
+      By pressing &quot;Submit&quot; iI agree that my check will be processed for guaranteeing and clearing. If approved. A $3.00 fee apply.
+    </p>
+  </div>
+  <div class="spacer" style="height:15px;" id="scanCheck-spacer9"></div>
+  <button id="scanCheck-button10" ion-button color="positive" block [navPush]="validation2">
+    Submit
+  </button>
+</ion-content>

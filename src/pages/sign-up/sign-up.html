@@ -1,0 +1,69 @@
+<ion-header>
+  <ion-navbar color="dark" style="text-align: center">
+    <ion-title>
+      Sign-up
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content padding id="page2">
+  <form id="signUp-form6">
+    <ion-list id="signUp-list1">
+    
+    <ion-grid>
+      <ion-row>
+        <ion-col>
+
+          <ion-item id="signUp-input9">
+
+            <ion-input type="text" placeholder="First Name" name="firstName"></ion-input>
+          </ion-item>
+
+        </ion-col>
+        <ion-col>
+          
+          <ion-item id="signUp-input13">
+            <ion-input type="text" placeholder="Mid Name" name="midName"></ion-input>
+          </ion-item>
+        
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+
+    <ion-grid>
+      <ion-row>
+        <ion-col>
+          <ion-item id="signUp-input14">
+            <ion-input type="text" placeholder="Last Name" name="lastName"></ion-input>
+          </ion-item>
+        </ion-col>
+        <ion-col>  
+          <ion-item id="signUp-input15">
+            <ion-input type="text" placeholder="Maiden Name" name="maidenName"></ion-input>
+          </ion-item>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+
+      <ion-item id="signUp-input11">
+        <ion-input type="email" placeholder="Email" name="email"></ion-input>
+      </ion-item>
+      <ion-item id="signUp-input12">
+        <ion-input type="text" placeholder="Choose a Password" name="choosePassword"></ion-input>
+      </ion-item>
+      <ion-item id="signUp-input16">
+        <ion-input type="text" placeholder="Re-enter Password" name="reenterPassword"></ion-input>
+      </ion-item>
+      <ion-item id="signUp-input17">
+        <ion-input type="text" placeholder="Mobile Phone Number (a 4-digit PIN will be set via SMS)" name="mobileNumber"></ion-input>
+      </ion-item>
+      <ion-item id="signUp-input20">
+        <ion-input type="text" placeholder="Please enter the 4-digit" name="mobileNumber"></ion-input>
+      </ion-item>
+    </ion-list>
+    <h6 style="text-align:right;"><a href="#">Didn't  get it  ?</a></h6>
+    <div class="spacer" style="height:10px;" id="validation3-spacer13"></div>
+    <button id="signUp-button4" ion-button color="positive" block [navPush]="scanPhoto">
+      Submit
+    </button>
+  </form>
+</ion-content>
